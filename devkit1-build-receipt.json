@@ -1,11 +1,14 @@
 {
   "blueprint": {
-    "status": "SKIPPED_DRY_RUN"
+    "status": "COMPLETED",
+    "registered": false,
+    "blueprint_path": "C:\\OTHRYS\\repos\\OTHRYS\\blueprints\\sites\\hashchecker.json",
+    "siteId": "hashchecker"
   },
   "scaffold": {
     "status": "COMPLETED",
     "repo_dir": "C:\\OTHRYS\\repos\\hashchecker",
-    "files_count": 16
+    "files_count": 3207
   },
   "seo": {
     "status": "COMPLETED",
@@ -26,18 +29,30 @@
     "target": "C:\\OTHRYS\\repos\\hashchecker"
   },
   "verify_build": {
-    "status": "SKIPPED_DRY_RUN"
+    "status": "COMPLETED",
+    "tests_passed": true,
+    "build_succeeded": true,
+    "dist_compiled": true,
+    "test_output": "[2mms\u001b[22m\u001b[39m\n\n\u001b[2m Test Files \u001b[22m \u001b[1m\u001b[32m2 passed\u001b[39m\u001b[22m\u001b[90m (2)\u001b[39m\n\u001b[2m      Tests \u001b[22m \u001b[1m\u001b[32m8 passed\u001b[39m\u001b[22m\u001b[90m (8)\u001b[39m\n\u001b[2m   Start at \u001b[22m 01:59:14\n\u001b[2m   Duration \u001b[22m 2.09s\u001b[2m (transform 33ms, setup 0ms, collect 61ms, tests 4ms, environment 558ms, prepare 96ms)\u001b[22m\n\n"
   },
   "git_publish": {
-    "status": "SKIPPED_DRY_RUN"
+    "status": "COMPLETED",
+    "repo": "vtcbelgium/hashchecker",
+    "gh_authenticated": true
   },
   "cloudflare_deploy": {
-    "status": "SKIPPED_DRY_RUN"
+    "status": "FAILED",
+    "pages_host": "hashchecker.pages.dev",
+    "deployed": false
   },
   "dns_domain": {
-    "status": "SKIPPED_DRY_RUN"
+    "status": "COMPLETED",
+    "dns_provisioned": true,
+    "edge_verified_live": false,
+    "live_url": "https://hashchecker.othrys.be/"
   },
   "fleet_register": {
-    "status": "SKIPPED_DRY_RUN"
+    "status": "COMPLETED",
+    "fleet_file": "C:\\OTHRYS\\repos\\othrys-web\\lib\\sites.ts"
   }
 }
