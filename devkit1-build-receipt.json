@@ -1,0 +1,43 @@
+{
+  "blueprint": {
+    "status": "SKIPPED_DRY_RUN"
+  },
+  "scaffold": {
+    "status": "COMPLETED",
+    "repo_dir": "C:\\OTHRYS\\repos\\hashchecker",
+    "files_count": 16
+  },
+  "seo": {
+    "status": "COMPLETED",
+    "robots_txt": true,
+    "sitemap_xml": true,
+    "og_image_svg": true
+  },
+  "optimize": {
+    "status": "OPTIMIZED",
+    "mandatory_section": "fine-tuning and optimization",
+    "passed_gates": [
+      "gate_header_sovereign_signature",
+      "gate_typography_hierarchy",
+      "gate_accessibility_dialogs",
+      "gate_zero_tracking_security",
+      "gate_design_tokens"
+    ],
+    "target": "C:\\OTHRYS\\repos\\hashchecker"
+  },
+  "verify_build": {
+    "status": "SKIPPED_DRY_RUN"
+  },
+  "git_publish": {
+    "status": "SKIPPED_DRY_RUN"
+  },
+  "cloudflare_deploy": {
+    "status": "SKIPPED_DRY_RUN"
+  },
+  "dns_domain": {
+    "status": "SKIPPED_DRY_RUN"
+  },
+  "fleet_register": {
+    "status": "SKIPPED_DRY_RUN"
+  }
+}
