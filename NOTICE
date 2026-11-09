@@ -1,0 +1,9 @@
+hashchecker
+Copyright 2026 Jeroen Pauwels
+
+Licensed under the Apache License, Version 2.0 (see the LICENSE file).
+
+Third-party components keep their own licenses:
+
+- node_modules/: third-party npm packages. Each keeps its own license (MIT, ISC,
+  BSD and Apache-2.0); see the LICENSE file and package.json in each package.
